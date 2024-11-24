@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <role display_value="x_1557275_appoin_0.manager" name="x_1557275_appoin_0.manager">2355bcf197ca12102464b73de053afaf</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-24 01:06:56</sys_created_on>
+        <sys_id>2f55bcf197ca12102464b73de053afaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2355bcf197ca12102464b73de053afaf</sys_name>
+        <sys_package display_value="Appointment App" source="x_1557275_appoin_0">9355bcf197ca12102464b73de053afa1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appointment App">9355bcf197ca12102464b73de053afa1</sys_scope>
+        <sys_update_name>sys_embedded_help_role_2f55bcf197ca12102464b73de053afaf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-24 01:06:56</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
