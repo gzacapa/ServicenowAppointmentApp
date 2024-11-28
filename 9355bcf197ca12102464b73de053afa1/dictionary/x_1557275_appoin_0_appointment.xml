@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f0abf0f997ca12102464b73de053af6b" extends="task" label="Appointment" max_length="40" name="x_1557275_appoin_0_appointment" type="collection">
+        <element label="date" max_length="40" name="date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="end time" max_length="40" name="end_time" type="glide_time"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="room" max_length="32" name="room" reference="x_1557275_appoin_0_room" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="slot" max_length="32" name="slot" reference="x_1557275_appoin_0_room_time_slot" reference_qual="javascript: new x_1557275_appoin_0.ApppointmentAppUtilsClient().getAvailableSlots(current.room,current.date)" type="reference" use_reference_qualifier="advanced"/>
+        <element attributes="edge_encryption_enabled=true" label="start time" max_length="40" name="start_time" type="glide_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" sequence="0" value="cancelled"/>
+                <element inactive_on_update="false" label="Booked" sequence="1" value="booked"/>
+                <element inactive_on_update="false" label="Ongoing" sequence="2" value="ongoing"/>
+                <element inactive_on_update="false" label="Done" sequence="3" value="done"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Customer" mandatory="true" max_length="40" name="user" reference="sys_user" type="reference"/>
+    </element>
+</database>

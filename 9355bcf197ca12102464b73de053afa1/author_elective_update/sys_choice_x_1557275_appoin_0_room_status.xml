@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-11-24 01:29:57</sys_created_on>
-            <sys_id>acaa7c7997ca12102464b73de053af05</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>status</sys_name>
             <sys_package display_value="Appointment App" source="x_1557275_appoin_0">9355bcf197ca12102464b73de053afa1</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2024-11-24 01:29:57</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>68aa7c7997ca12102464b73de053af05</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-11-24 01:29:57</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2024-11-24 01:29:57</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>a4aa7c7997ca12102464b73de053af07</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-11-24 01:29:57</sys_updated_on>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="94014571970e12102464b73de053af38" label="Room Time Slot" max_length="40" name="x_1557275_appoin_0_room_time_slot" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="end time" max_length="40" name="end_time" type="glide_time"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="room" max_length="32" name="room" reference="x_1557275_appoin_0_room" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="start time" max_length="40" name="start_time" type="glide_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Unavailable" sequence="0" value="unavailable"/>
+                <element inactive_on_update="false" label="Available" sequence="1" value="available"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="room"/>
+        </index>
+    </element>
+</database>

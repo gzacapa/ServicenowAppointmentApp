@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f937fc7597ca12102464b73de053af44" label="room" max_length="40" name="x_1557275_appoin_0_room" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Available End" max_length="255" name="available_end" type="glide_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Available Start" max_length="255" name="available_start" type="glide_time"/>
+        <element label="location" max_length="40" name="location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="Room name" mandatory="true" max_length="40" name="room_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Available" sequence="0" value="available"/>
+                <element inactive_on_update="false" label="Unavailable" sequence="1" value="unavailable"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
